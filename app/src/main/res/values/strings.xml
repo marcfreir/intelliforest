@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">IntelliForest</string>
+    <string name="image_desc">ImageIntelliForest</string>
+    <string name="version_1_0">Version 1.0 (Developed by Marc Freir)</string>
+    <string name="year">Ano</string>
+    <string name="state">Estado</string>
+    <string name="cuttree">Nº de Árvores Cortadas</string>
+    <string name="volume">Volume (m³)</string>
+    <string name="replacedtree">Nº de Árvores Repostas</string>
+    <string name="buttoncalc">Calcular</string>
+    <string name="divider">Divisor</string>
+    <string name="lbl_result">Resultados</string>
+    <string name="lbl_trees_replace">Árvores a Ser Rep.:</string>
+    <string name="lbl_total_price">Valor a Ser Pago:</string>
+    <string name="trees_replace">Árvores Repostas</string>
+    <string name="total_price">Valor a Ser Pago</string>
+    <string name="buttontablereforestation">Tabela de Reflorestamento</string>
+    <!-- SECOND ACTIVITY-->
+    <string name="version_1_0_ac2">Version 1.0 (Developed by Marc Freir)</string>
+    <string name="lbl_year">Ano</string>
+    <string name="lbl_trees_rep2">Árv. Repostas</string>
+    <string name="lbl_volume">Vol. (m³)</string>
+    <string name="lbl_cuttrees">Árv. Cortadas</string>
+    <string name="year1">Ano 1</string>
+    <string name="year2">Ano 2</string>
+    <string name="year3">Ano 3</string>
+    <string name="year4">Ano 4</string>
+    <string name="trees_rep1">Á. R 1</string>
+    <string name="trees_rep2">Á. R 2</string>
+    <string name="trees_rep3">Á. R 3</string>
+    <string name="trees_rep4">Á. R 4</string>
+    <string name="volume1">Vol. 1</string>
+    <string name="volume2">Vol. 2</string>
+    <string name="volume3">Vol. 3</string>
+    <string name="volume4">Vol. 4</string>
+    <string name="cuttrees1">Á. C. 1</string>
+    <string name="cuttrees2">Á. C. 2</string>
+    <string name="cuttrees3">Á. C. 3</string>
+    <string name="cuttrees4">Á. C. 4</string>
+    <string name="buttontotal">Total</string>
+    <string name="total_trees_rep">T. Á. R.</string>
+    <string name="total_volume">T. V.</string>
+    <string name="total_cuttrees">T. Á. C.</string>
+    <string name="buttonback">Voltar</string>
+
+    <string-array name="states">
+        <item>[estado]</item>
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MG</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>PR</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SE</item>
+        <item>SP</item>
+        <item>TO</item>
+    </string-array>
+
+</resources>

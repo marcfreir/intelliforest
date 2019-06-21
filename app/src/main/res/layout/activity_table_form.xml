@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="RelativeOverlap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".TableFormActivity">
+
+    <EditText
+        android:id="@+id/textboxYear_1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="171dp"
+        android:ems="10"
+        android:hint="@string/year1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxYear_2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxYear_1"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textboxYear_1"
+        android:layout_marginTop="235dp"
+        android:ems="10"
+        android:hint="@string/year2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxYear_3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxYear_1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textboxYear_1"
+        android:layout_marginBottom="259dp"
+        android:ems="10"
+        android:hint="@string/year3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxYear_4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxYear_1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textboxYear_1"
+        android:layout_marginBottom="196dp"
+        android:ems="10"
+        android:hint="@string/year4"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxRepTrees_1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textboxYear_1"
+        android:layout_marginLeft="114dp"
+        android:layout_marginStart="114dp"
+        android:ems="10"
+        android:hint="@string/trees_rep1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxRepTrees_2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxRepTrees_1"
+        android:layout_alignStart="@+id/textboxRepTrees_1"
+        android:layout_alignTop="@+id/textboxYear_2"
+        android:ems="10"
+        android:hint="@string/trees_rep2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxRepTrees_3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxRepTrees_1"
+        android:layout_alignStart="@+id/textboxRepTrees_1"
+        android:layout_alignTop="@+id/textboxYear_3"
+        android:ems="10"
+        android:hint="@string/trees_rep3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxRepTrees_4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxRepTrees_1"
+        android:layout_alignStart="@+id/textboxRepTrees_1"
+        android:layout_alignTop="@+id/textboxYear_4"
+        android:ems="10"
+        android:hint="@string/trees_rep4"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxVol_1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textboxYear_1"
+        android:layout_marginEnd="114dp"
+        android:layout_marginRight="114dp"
+        android:ems="10"
+        android:hint="@string/volume1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxVol_2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxVol_1"
+        android:layout_alignStart="@+id/textboxVol_1"
+        android:layout_alignTop="@+id/textboxYear_2"
+        android:ems="10"
+        android:hint="@string/volume2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxVol_3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxVol_1"
+        android:layout_alignStart="@+id/textboxVol_1"
+        android:layout_alignTop="@+id/textboxYear_3"
+        android:ems="10"
+        android:hint="@string/volume3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxVol_4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxVol_1"
+        android:layout_alignStart="@+id/textboxVol_1"
+        android:layout_alignTop="@+id/textboxYear_4"
+        android:ems="10"
+        android:hint="@string/volume4"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxCutTrees_1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textboxYear_1"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:hint="@string/cuttrees1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxCutTrees_2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxCutTrees_1"
+        android:layout_alignStart="@+id/textboxCutTrees_1"
+        android:layout_alignTop="@+id/textboxYear_2"
+        android:ems="10"
+        android:hint="@string/cuttrees2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxCutTrees_3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxCutTrees_1"
+        android:layout_alignStart="@+id/textboxCutTrees_1"
+        android:layout_alignTop="@+id/textboxYear_3"
+        android:ems="10"
+        android:hint="@string/cuttrees3"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxCutTrees_4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textboxCutTrees_1"
+        android:layout_alignStart="@+id/textboxCutTrees_1"
+        android:layout_alignTop="@+id/textboxYear_4"
+        android:ems="10"
+        android:hint="@string/cuttrees4"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/lblYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="133dp"
+        android:contentDescription="@string/lbl_year"
+        android:text="@string/lbl_year" />
+
+    <TextView
+        android:id="@+id/lblRepTrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textboxRepTrees_1"
+        android:layout_alignLeft="@+id/textboxRepTrees_1"
+        android:layout_alignTop="@+id/lblYear"
+        android:contentDescription="@string/lbl_trees_rep2"
+        android:text="@string/lbl_trees_rep2"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/lblVol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/lblYear"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:contentDescription="@string/lbl_volume"
+        android:text="@string/lbl_volume"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/lblCutTrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textboxCutTrees_1"
+        android:layout_alignLeft="@+id/textboxCutTrees_1"
+        android:layout_alignTop="@+id/lblYear"
+        android:contentDescription="@string/lbl_cuttrees"
+        android:text="@string/lbl_cuttrees"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/buttonTotal"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textboxYear_1"
+        android:layout_alignLeft="@+id/textboxYear_1"
+        android:layout_marginBottom="119dp"
+        android:text="@string/buttontotal" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/buttonback" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:contentDescription="@string/image_desc"
+        app:srcCompat="@drawable/intelliforest_logo" />
+
+    <TextView
+        android:id="@+id/textlblVersion_ac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:contentDescription="@string/version_1_0_ac2"
+        android:text="@string/version_1_0_ac2"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lblTotalRepTrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonTotal"
+        android:layout_alignLeft="@+id/textboxRepTrees_1"
+        android:layout_alignStart="@+id/textboxRepTrees_1"
+        android:contentDescription="@string/total_trees_rep"
+        android:text="@string/total_trees_rep" />
+
+    <TextView
+        android:id="@+id/lblTotalVol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonTotal"
+        android:layout_alignLeft="@+id/textboxVol_1"
+        android:layout_alignStart="@+id/textboxVol_1"
+        android:contentDescription="@string/total_volume"
+        android:text="@string/total_volume" />
+
+    <TextView
+        android:id="@+id/lblTotalCutTrees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonTotal"
+        android:layout_alignLeft="@+id/textboxCutTrees_1"
+        android:layout_alignStart="@+id/textboxCutTrees_1"
+        android:contentDescription="@string/total_cuttrees"
+        android:text="@string/total_cuttrees" />
+</RelativeLayout>

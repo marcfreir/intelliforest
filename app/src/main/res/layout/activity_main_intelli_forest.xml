@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityIntelliForest">
+
+    <ImageView
+        android:id="@+id/imageIntelliForest"
+        android:layout_width="245dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:contentDescription="@string/image_desc"
+        app:srcCompat="@drawable/intelliforest_logo" />
+
+    <TextView
+        android:id="@+id/textlblVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:contentDescription="@string/version_1_0"
+        android:text="@string/version_1_0"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp"
+        android:text="@string/buttoncalc" />
+
+    <Spinner
+        android:id="@+id/spinnerState"
+        android:layout_width="213dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="179dp" />
+
+    <EditText
+        android:id="@+id/textboxYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:ems="10"
+        android:hint="@string/year"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxCutTree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+        android:hint="@string/cuttree"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textboxVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="267dp"
+        android:ems="10"
+        android:hint="@string/volume"
+        android:inputType="textPersonName|number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/textboxReplacedTree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="212dp"
+        android:ems="10"
+        android:hint="@string/replacedtree"
+        android:inputType="number" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="144dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textlblResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="122dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:contentDescription="@string/lbl_result"
+        android:text="@string/lbl_result"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textlineTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textlblTotalPrice"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/total_price"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/textlineTreesReplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textlblTreesReplace"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/trees_replace"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textlblTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textlblResults"
+        android:layout_alignLeft="@id/textlblResults"
+        android:layout_marginBottom="60dp"
+        android:contentDescription="@string/lbl_total_price"
+        android:text="@string/lbl_total_price" />
+
+    <TextView
+        android:id="@+id/textlblTreesReplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textlblResults"
+        android:layout_alignLeft="@id/textlblResults"
+        android:layout_marginBottom="91dp"
+        android:contentDescription="@string/lbl_trees_replace"
+        android:text="@string/lbl_trees_replace" />
+
+    <Button
+        android:id="@+id/buttonTableRef"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/buttontablereforestation"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
